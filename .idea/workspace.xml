@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ef9bea7-d203-4ae9-a82d-13dfbe6961b1" name="Changes" comment="L1 - Первое приложение Spring Core (Refactoring)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/baykov/L2_IoC/ClassicalMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/baykov/L2_IoC/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/baykov/L2_IoC/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/baykov/L2_IoC/MusicPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/baykov/L2_IoC/RockMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContextL2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/baykov/L1_TestBean/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/baykov/L1_TestBean/TestSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContextL1.xml" afterDir="false" />
+    <list default="true" id="2ef9bea7-d203-4ae9-a82d-13dfbe6961b1" name="Changes" comment="L2 - IoC">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/baykov/L2_IoC/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/baykov/L2_IoC/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContextL2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContextL2.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1696089854422</updated>
       <workItem from="1696089855500" duration="748000" />
-      <workItem from="1696090614909" duration="2020000" />
+      <workItem from="1696090614909" duration="2801000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -125,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696091268425</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="L2 - IoC">
+      <option name="closed" value="true" />
+      <created>1696092880886</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696092880886</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +136,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="L1 - Первое приложение Spring Core" />
     <MESSAGE value="L1 - Первое приложение Spring Core (Refactoring)" />
-    <option name="LAST_COMMIT_MESSAGE" value="L1 - Первое приложение Spring Core (Refactoring)" />
+    <MESSAGE value="L2 - IoC" />
+    <option name="LAST_COMMIT_MESSAGE" value="L2 - IoC" />
   </component>
 </project>

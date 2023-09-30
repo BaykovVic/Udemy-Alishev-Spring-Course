@@ -5,4 +5,10 @@
     <bean id="musicBean"
           class="ru.baykov.L2_IoC.RockMusic">
     </bean>
+
+    <bean id="musicPlayer"
+            class="ru.baykov.L2_IoC.MusicPlayer">
+        <constructor-arg ref="musicBean"/>
+    </bean>
+
 </beans>
