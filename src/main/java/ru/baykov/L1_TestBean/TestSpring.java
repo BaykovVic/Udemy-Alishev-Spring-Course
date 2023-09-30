@@ -1,4 +1,4 @@
-package ru.baykov.L1;
+package ru.baykov.L1_TestBean;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ef9bea7-d203-4ae9-a82d-13dfbe6961b1" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/baykov/L1/TestBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/baykov/L1/TestSpring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2ef9bea7-d203-4ae9-a82d-13dfbe6961b1" name="Changes" comment="L1 - Первое приложение Spring Core">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/baykov/L1/TestBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/baykov/L1_TestBean/TestBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/baykov/L1/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/baykov/L1_TestBean/TestSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +25,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": -1
+}]]></component>
   <component name="ProjectId" id="2W7i7ohmYVno4bgjfHjngT5PQ4w" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,16 +45,17 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "c0363fb001f4f3168d8583d6a0c2e069",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="TestSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.baykov.L1.TestSpring" />
+      <option name="MAIN_CLASS_NAME" value="ru.baykov.L1_TestBean.TestSpring" />
       <module name="Udemy-Alishev-Spring-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.baykov.L1.*" />
+          <option name="PATTERN" value="ru.baykov.L1_TestBean.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,6 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1696089854422</updated>
       <workItem from="1696089855500" duration="748000" />
+      <workItem from="1696090614909" duration="535000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -83,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696090126244</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="L1 - Первое приложение Spring Core">
+      <option name="closed" value="true" />
+      <created>1696090710673</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696090710673</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +104,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="L1 - Первое приложение Spring Core" />
+    <option name="LAST_COMMIT_MESSAGE" value="L1 - Первое приложение Spring Core" />
   </component>
 </project>

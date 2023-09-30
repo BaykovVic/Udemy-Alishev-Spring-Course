@@ -1,4 +1,4 @@
-package ru.baykov.L1;
+package ru.baykov.L1_TestBean;
 
 public class TestBean {
     private String name;
