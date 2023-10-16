@@ -3,21 +3,5 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
-    <context:property-placeholder location="classpath:musicPlayer.properties"/>
-    <bean id="musicBean"
-          class="ru.baykov.L2_IoC.RockMusic"
-          init-method="initBean"
-          destroy-method="destroyBean"
-          factory-method="initRockMusicInstance"
-    >
-    </bean>
-
-<!--    <bean id="musicPlayer"
-            class="ru.baykov.L2_IoC.MusicPlayer"
-            scope="prototype">
-        <property name="music" ref="musicBean"/>
-        <property name="name" value="WinAmp"/>
-        <property name="volume" value="50"/>
-    </bean>-->
-
+    <context:component-scan base-package="ru.baykov.L2_IoC"/>
 </beans>

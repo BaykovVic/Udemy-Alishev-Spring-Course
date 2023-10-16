@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ef9bea7-d203-4ae9-a82d-13dfbe6961b1" name="Changes" comment="L7 - Bean Scope. Prototype bean scope">
+    <list default="true" id="2ef9bea7-d203-4ae9-a82d-13dfbe6961b1" name="Changes" comment="L9 - Bean Lifecycle. Factory-method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/baykov/L2_IoC/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/baykov/L2_IoC/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/baykov/L2_IoC/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/baykov/L2_IoC/RockMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContextL3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContextL3.xml" afterDir="false" />
     </list>
@@ -101,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1696089854422</updated>
       <workItem from="1696089855500" duration="748000" />
-      <workItem from="1696090614909" duration="11917000" />
+      <workItem from="1696090614909" duration="13896000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -183,7 +182,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697479490444</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="L8 - Bean Lifecycle. Init-method &amp; Destroy-method">
+      <option name="closed" value="true" />
+      <created>1697482497299</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1697482497299</updated>
+    </task>
+    <task id="LOCAL-00012" summary="L9 - Bean Lifecycle. Factory-method">
+      <option name="closed" value="true" />
+      <created>1697482727038</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1697482727038</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +226,8 @@
     <MESSAGE value="HW1 - DI. Внедрение зависимостей (List) через applicationContext с использованием геттеров." />
     <MESSAGE value="L6 - Bean Scope. Singleton bean scope" />
     <MESSAGE value="L7 - Bean Scope. Prototype bean scope" />
-    <option name="LAST_COMMIT_MESSAGE" value="L7 - Bean Scope. Prototype bean scope" />
+    <MESSAGE value="L8 - Bean Lifecycle. Init-method &amp; Destroy-method" />
+    <MESSAGE value="L9 - Bean Lifecycle. Factory-method" />
+    <option name="LAST_COMMIT_MESSAGE" value="L9 - Bean Lifecycle. Factory-method" />
   </component>
 </project>

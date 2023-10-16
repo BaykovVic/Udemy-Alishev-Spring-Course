@@ -6,7 +6,11 @@ public class Main {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContextL3.xml");
         RockMusic rockMusic = ctx.getBean("musicBean", RockMusic.class);
+        NativeMusic nativeMusic = ctx.getBean("nativeMusic", NativeMusic.class);
+
         System.out.println(rockMusic.getSong());
+        System.out.println(nativeMusic.getSong());
+
         /*MusicPlayer musicPlayer1 = ctx.getBean("musicPlayer", MusicPlayer.class);
         MusicPlayer musicPlayer2 = ctx.getBean("musicPlayer", MusicPlayer.class);
         boolean comparasion = musicPlayer1 == musicPlayer2;
