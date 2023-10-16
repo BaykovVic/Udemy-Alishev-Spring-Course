@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ef9bea7-d203-4ae9-a82d-13dfbe6961b1" name="Changes" comment="L3 - DI">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContextL3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/baykov/L2_IoC/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/baykov/L2_IoC/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/baykov/L2_IoC/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/baykov/L2_IoC/MusicPlayer.java" afterDir="false" />
+    <list default="true" id="2ef9bea7-d203-4ae9-a82d-13dfbe6961b1" name="Changes" comment="L4 - DI. Внедрение зависимостей через applicationContext с использованием геттеров">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/musicPlayer.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContextL3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContextL3.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +46,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "spring.configuration.checksum": "c0363fb001f4f3168d8583d6a0c2e069",
     "vue.rearranger.settings.migration": "true"
   }
@@ -100,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1696089854422</updated>
       <workItem from="1696089855500" duration="748000" />
-      <workItem from="1696090614909" duration="5274000" />
+      <workItem from="1696090614909" duration="5900000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -142,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696093749187</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="L4 - DI. Внедрение зависимостей через applicationContext с использованием геттеров">
+      <option name="closed" value="true" />
+      <created>1697467242913</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697467242913</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +161,7 @@
     <MESSAGE value="L1 - Первое приложение Spring Core (Refactoring)" />
     <MESSAGE value="L2 - IoC" />
     <MESSAGE value="L3 - DI" />
-    <option name="LAST_COMMIT_MESSAGE" value="L3 - DI" />
+    <MESSAGE value="L4 - DI. Внедрение зависимостей через applicationContext с использованием геттеров" />
+    <option name="LAST_COMMIT_MESSAGE" value="L4 - DI. Внедрение зависимостей через applicationContext с использованием геттеров" />
   </component>
 </project>
