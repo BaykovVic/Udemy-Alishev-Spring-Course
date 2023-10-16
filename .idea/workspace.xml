@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ef9bea7-d203-4ae9-a82d-13dfbe6961b1" name="Changes" comment="L2 - IoC">
+    <list default="true" id="2ef9bea7-d203-4ae9-a82d-13dfbe6961b1" name="Changes" comment="L3 - DI">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContextL3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/baykov/L2_IoC/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/baykov/L2_IoC/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContextL2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContextL2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/baykov/L2_IoC/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/baykov/L2_IoC/MusicPlayer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/victor/Programming/Java/Lessons/Udemy-Alishev-Spring-Course/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -49,6 +52,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.baykov.L2_IoC.Main" />
@@ -92,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1696089854422</updated>
       <workItem from="1696089855500" duration="748000" />
-      <workItem from="1696090614909" duration="2801000" />
+      <workItem from="1696090614909" duration="5274000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -126,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696092880886</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="L3 - DI">
+      <option name="closed" value="true" />
+      <created>1696093749187</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696093749187</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +153,7 @@
     <MESSAGE value="L1 - Первое приложение Spring Core" />
     <MESSAGE value="L1 - Первое приложение Spring Core (Refactoring)" />
     <MESSAGE value="L2 - IoC" />
-    <option name="LAST_COMMIT_MESSAGE" value="L2 - IoC" />
+    <MESSAGE value="L3 - DI" />
+    <option name="LAST_COMMIT_MESSAGE" value="L3 - DI" />
   </component>
 </project>
