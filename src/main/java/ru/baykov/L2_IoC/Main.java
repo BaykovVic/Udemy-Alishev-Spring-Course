@@ -5,7 +5,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Main {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContextL3.xml");
-        MusicPlayer musicPlayer1 = ctx.getBean("musicPlayer", MusicPlayer.class);
+        RockMusic rockMusic = ctx.getBean("musicBean", RockMusic.class);
+        System.out.println(rockMusic.getSong());
+        /*MusicPlayer musicPlayer1 = ctx.getBean("musicPlayer", MusicPlayer.class);
         MusicPlayer musicPlayer2 = ctx.getBean("musicPlayer", MusicPlayer.class);
         boolean comparasion = musicPlayer1 == musicPlayer2;
         if (comparasion) {
@@ -17,7 +19,7 @@ public class Main {
         else {
             System.out.println("Prototype bean scope");
         }
-        musicPlayer1.playMusic();
+        musicPlayer1.playMusic();*/
         ctx.close();
     }
 }
