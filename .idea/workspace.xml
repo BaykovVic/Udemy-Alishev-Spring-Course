@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ef9bea7-d203-4ae9-a82d-13dfbe6961b1" name="Changes" comment="L4 - DI. Внедрение зависимостей через applicationContext с использованием геттеров">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/musicPlayer.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContextL3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContextL3.xml" afterDir="false" />
+    <list default="true" id="2ef9bea7-d203-4ae9-a82d-13dfbe6961b1" name="Changes" comment="L5 - DI. Внедрение зависимостей через файл .properties с использованием геттеров">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/baykov/L2_IoC/NativeMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContextHW1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/baykov/L2_IoC/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/baykov/L2_IoC/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/baykov/L2_IoC/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/baykov/L2_IoC/MusicPlayer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1696089854422</updated>
       <workItem from="1696089855500" duration="748000" />
-      <workItem from="1696090614909" duration="5900000" />
+      <workItem from="1696090614909" duration="7683000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -149,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697467242913</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="L5 - DI. Внедрение зависимостей через файл .properties с использованием геттеров">
+      <option name="closed" value="true" />
+      <created>1697467597125</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697467597125</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +173,7 @@
     <MESSAGE value="L2 - IoC" />
     <MESSAGE value="L3 - DI" />
     <MESSAGE value="L4 - DI. Внедрение зависимостей через applicationContext с использованием геттеров" />
-    <option name="LAST_COMMIT_MESSAGE" value="L4 - DI. Внедрение зависимостей через applicationContext с использованием геттеров" />
+    <MESSAGE value="L5 - DI. Внедрение зависимостей через файл .properties с использованием геттеров" />
+    <option name="LAST_COMMIT_MESSAGE" value="L5 - DI. Внедрение зависимостей через файл .properties с использованием геттеров" />
   </component>
 </project>

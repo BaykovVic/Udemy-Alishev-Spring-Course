@@ -1,7 +1,11 @@
 package ru.baykov.L2_IoC;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MusicPlayer {
-    private Music music;
+    private List<Music> playList = new ArrayList<Music>();
+
     private String name;
     private int volume;
 
@@ -24,16 +28,13 @@ public class MusicPlayer {
     public MusicPlayer() {
     }
 
-    //IoC
-    public MusicPlayer(Music music) {
-        this.music = music;
+    public void setPlayList(List<Music> playList) {
+        this.playList = playList;
     }
 
-    public void setMusic(Music music) {
-        this.music = music;
-    }
-
-    public void playMusic() {
-        System.out.println("Playing: " + music.getSong());
+    public void playAllMusic() {
+        for (Music music:playList) {
+            System.out.println("Playing: " + music.getSong());
+        }
     }
 }
