@@ -1,6 +1,12 @@
 package ru.baykov.L2_IoC;
 
 public class RockMusic implements Music{
+
+    private RockMusic() {}
+
+    public static RockMusic initRockMusicInstance() {
+        return new RockMusic();
+    }
     public void initBean() {
         System.out.println("Initialize bean");
     }
