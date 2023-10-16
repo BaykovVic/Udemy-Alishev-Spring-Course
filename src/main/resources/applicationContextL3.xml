@@ -9,7 +9,8 @@
     </bean>
 
     <bean id="musicPlayer"
-            class="ru.baykov.L2_IoC.MusicPlayer">
+            class="ru.baykov.L2_IoC.MusicPlayer"
+            scope="prototype">
         <property name="music" ref="musicBean"/>
         <property name="name" value="WinAmp"/>
         <property name="volume" value="50"/>
