@@ -2,7 +2,7 @@ package ru.baykov.L2_IoC;
 
 import org.springframework.stereotype.Component;
 
-@Component("musicBean")
+@Component("rockMusicBean")
 public class RockMusic implements Music{
 
     private RockMusic() {}

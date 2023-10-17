@@ -2,13 +2,4 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean id="musicBean"
-          class="ru.baykov.L2_IoC.RockMusic">
-    </bean>
-
-    <bean id="musicPlayer"
-            class="ru.baykov.L2_IoC.MusicPlayer">
-        <constructor-arg ref="musicBean"/>
-    </bean>
-
 </beans>
